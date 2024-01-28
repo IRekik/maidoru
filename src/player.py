@@ -2,7 +2,7 @@ import pygame
 
 class Player:
     def __init__(self, map_width, map_height):
-        self.map_width = map_height
+        self.map_width = map_width
         self.map_height = map_height
         self.x_position = 0
         self.y_position = 0
