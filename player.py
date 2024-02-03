@@ -9,7 +9,7 @@ class Player:
         self.y_position = 12
         self.width = 10
         self.height = 10
-        self.obstacles = generate_collision_map("../txt_files/collision_pixels.txt")
+        self.obstacles = generate_collision_map("txt_files/collision_pixels.txt")
 
     def handle_input(self, keys):
         if keys[pygame.K_LEFT]:

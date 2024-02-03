@@ -16,7 +16,7 @@ class Game:
 
     def draw(self, screen):
         # Draw the background image
-        background = pygame.image.load("../images/background.jpg")
+        background = pygame.image.load("images/background.jpg")
         screen.blit(background, (0, 0))
 
         # Draw the player character
