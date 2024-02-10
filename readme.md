@@ -18,6 +18,22 @@ git clone https://github.com/IRekik/maidoru.git
 cd maidoru
 ```
 
+### Install and activate the virtual environment `venv`
+
+First, install the virtual environment using the following command:
+
+```bash
+python -m venv venv
+```
+
+The, activate the virtual environment using the following command:
+
+```bash
+source venv/bin/activate
+```
+
+It is important to mention that these commands are for a Linux-based OS.
+
 ### Install Dependencies
 
 Install the required Python packages using the following command:
